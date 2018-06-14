@@ -3,6 +3,7 @@ import ponyfill from './ponyfill.js';
 
 var root;
 
+//判断全局环境来源
 if (typeof self !== 'undefined') {
   root = self;
 } else if (typeof window !== 'undefined') {
